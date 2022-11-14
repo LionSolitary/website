@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="colores.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+      body{
+        background: url(fon.jpg);
+        background-repeat: repeat;
+        background-size: 100%;
+        }
+      p{
+        text-align: left;
+      }
+      .inage{
+        align-items: right;
+      }
+      .parent{
+        display: grid;
+        grid-template-columns: (1,2fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+      }
+      .div1{
+         grid-area: 1/1/2/2;
+         padding-top: 35px;
+      }
+      .div2{
+          grid-area: 1/2/2/3;
+          font-size: 25px;
+          color: blanchedalmond;
+      }
+      h1{
+        font-size: 40px;
+        color: rgb(126, 72, 1);
+        text-align: center;
+        background: url(tie.jpg);
+        border-style: double;
+        border-width: 15px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-family: fantasy;
+      }
+      h2{
+        text-align: center;
+        color: orange;
+        font-size: 30px;
+      }
+      h3{
+        font-size: 25px;
+        color: rgb(255, 255, 104);
+        text-align: left;
+        padding: 20px 30px 20px 30px;
+        line-height: 200%;
+      }
+      .cen{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 15px;
+      }
+      .co{
+        color: white;
+        font-size: 25px;
+        line-height: 200%;
+        padding-left: 50px;
+      }
+      .cu{
+        color: rgb(231, 235, 3);
+        font-size: 25px;
+        line-height: 200%;
+        padding-left: 50px;
+      }
+      .ce{
+        color: rgb(31, 250, 239);
+        font-size: 25px;
+        line-height: 200%;
+        padding-left: 50px;
+      }
+      .co1{
+        color: white;
+        font-size: 25px;
+        line-height: 200%;
+        padding-bottom: 40px;
+        padding-left: 50px;
+      }
+      .cu2{
+        color: rgb(231, 235, 3);
+        font-size: 25px;
+        line-height: 200%;
+        padding-bottom: 40px;
+        padding-left: 50px;
+      }
+      .boton{
+        padding-top: 30px;
+        padding: 40px;
+      }
+  </style>
+    <header>
+        <h1>LEY DE LA GRAVITACION<br/>
+         UNIVERSAL</h1>
+    </header>
+    <div class="parent">
+       <div class="div1">
+          <img src="isa.jpg" width="300">
+       </div>
+       <div class="div2">
+           <p>La ley de Gravitacion Universal <b>es una de las leyes fisicas formuladas por Isaac Newton</b> en 1687.
+            <b>Describe la interaccion gravitatoria entre cuerpos</b> masivos, y establece una relacion de proporcionalidad
+             de la fuerza gravitatoria con la masa de los cuerpos.<br/>
+           </p>
+      </div>
+    </div> 
+    <h2>_________</h2>
+    <h2>A CERCA DE LA LEY</h2>
+     <div class="parent">
+        <div class="div2">
+            <p>Newton dedujo que <b>La fuerza con que se atraen dos objetos es proporcional al producto de sus 
+                masas e inversamente proporcional al cuadrado de la distancia que los separa.</b><br/>
+                Esto significa que dos cuerpos cualquiera se atraen con una fuerza mayor o menor, y segun la distanciaentre ellos.
+            </p>
+        </div>
+        <div class="div1">
+            <img src="12.jpg" width="300">
+        </div>
+     </div>
+    <h2>_________</h2>
+    <h2>DATO CURIOSO</h2>
+    <div class="parent">
+        <div class="div2">
+            <p>Hoy en dia sabemos que, <b>a partir de cierta cantidad de masa, esta ley pierde su validez</b> y se hace
+                necesario trabajar con la <b>Ley de Relatividad General</b> formulada en <b>1915</b> por <b>Albert Einstein</b><br/>
+                La Ley de Gravitacion Universal es entonces una aproximacion a la Ley de Einstein pero aun asi es util para 
+                comprender la mayor parte de los fenomenos gravitatorios del Sistema Solar.
+            </p>
+        </div>
+        <div class="div1">
+            <img src="Alber.jpg" width="300">
+        </div>
+     </div>
+    <h2>_________</h2>
+    <h2>FORMULA GRAVITACIONAL</h2>
+    <h3>
+        ●  F es la fuerza de atraccion entre dos masas.<br/>
+        ●  G es la constante de gravitacion universal (6.673484*10^-11 N.m2/kg2).<br/>
+        ●  m1 es la masa de uno de los cuerpos.<br/>
+        ●  m2 es la masa de otro de los cuerpos.<br/>
+        ●  r la distancia que los separa.
+    </h3>
+    <img src="34.jpg" class="cen" width="400">
+    <h2>_________</h2>
+    <h2>RESUELVE EL SIGUIENTE PROBLEMA EN NUESTRO FORMULARIO!!!!!!</h2>
+    <img src="eje.jpg" class="cen" width="550">
+    <h2>Resolver la Ley de Gravitacion Universal</h2>
+     <form action="">
+        <table>
+            <tr>
+                <td class="co">
+                    Ingrese parte entera decimal de M1:
+                    <input type="number" name="a" id="a"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="co1">
+                    x10 elevado a la potencia de      :
+                    <input type="number" name="b" id="b"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="cu">
+                    Ingrese parte entera decimal de M2:
+                    <input type="number" name="c" id="c"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="cu2">
+                    x10 elevado a la potencia de      :
+                    <input type="number" name="d" id="d"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="ce">
+                    Ingrese parte entera decimal de r :
+                    <input type="number" name="e" id="e"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="ce">
+                    x10 elevado a la potencia de      :
+                    <input type="number" name="f" id="f">
+                </td>
+            </tr>
+            <tr>
+                <td class="boton">
+                    <input type="button" value="CALCULAR" onclick="calcular();"> 
+                </td>
+            </tr>
+        </table>
+     </form>
+
+    <script>
+         function calcular() {
+            var num1 = parseFloat(document.getElementById('a').value);
+            var num2 = parseFloat(document.getElementById('b').value);
+            var num3 = parseFloat(document.getElementById('c').value);
+            var num4 = parseFloat(document.getElementById('d').value);
+            var num5 = parseFloat(document.getElementById('e').value);
+            var num6 = parseFloat(document.getElementById('f').value);
+
+            var u=6.67;
+            var t=Math.pow(10,-11);
+            var q=u*t;
+            var n=Math.pow(10,num2);
+            var m=Math.pow(10,num4);
+            var o=Math.pow(10,num6);
+            var x=num1*n;
+            var y=num3*m;
+            var z=num5*o;
+            var p=Math.pow(z,2);
+            var h=q*x*y;
+            var f=h/p;
+            alert('El resultado es: '+f);
+         }
+
+    </script>
+</body>
+</html>
